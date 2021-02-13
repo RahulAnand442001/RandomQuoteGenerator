@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quote Machine</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+      integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div id="quote-box">
+        <h1 id="text"></h1>
+        <h3 id="author"></h3>
+        <footer class="quote-box-footer">
+          <div class="social-icons">
+            <a
+              href="twitter.com/intent/tweet"
+              id="tweet-quote"
+              class="post"
+              target="_top"
+              ><i class="fab fa-twitter"></i
+            ></a>
+            <a href="" id="tumbler-quote" class="post" target="_blank"
+              ><i class="fab fa-tumblr"></i
+            ></a>
+          </div>
+          <button id="new-quote" onclick="newQuote()">New Quote</button>
+        </footer>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
